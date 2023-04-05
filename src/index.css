@@ -1,0 +1,108 @@
+body {
+  font-family: Montserrat, sans-serif;
+  margin: 0px;
+}
+
+.master-container {
+  width: 100%;
+  margin: 0px;
+  background-color: #f2f2f2;
+}
+
+.header-container {
+  background-color: #f55a5a;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.globe-icon {
+  height: 32px;
+  padding: 0px 0px 6px 0px;
+}
+
+.journal-title {
+  margin: 0px;
+  color: #fffff6;
+  padding: 25px 10px 25px 10px;
+  font-family: Special Elite;
+  font-size: 24px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card {
+  display: flex;
+  margin: 20px;
+  margin-bottom: 20px;
+  background-color: #e6e6e6;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card-image {
+  width: 210px;
+  height: 300px;
+  border-radius: 9px;
+  margin: 10px 15px 10px 10px;
+}
+
+.location-and-stuff {
+  display: flex;
+  margin: 10px 0px 10px 20px;
+  align-items: center;
+}
+
+.location-marker {
+  width: 30px;
+  height: 30px;
+}
+
+.country {
+  font-size: 14px;
+  margin-left: 5px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.map-link {
+  margin-left: 10px;
+  font-size: 11px;
+  text-decoration: none;
+  color: #888888;
+}
+
+.map-link:hover {
+  color: #404040;
+}
+
+.map-link:active {
+  color: #000000;
+}
+
+.destination {
+  color: #313131;
+  font-size: 30px;
+  margin: 0px 0px 12px 0px;
+  letter-spacing: -1.2px;
+}
+
+.period {
+  font-size: 16px;
+  margin: 0px 0px 15px 0px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+
+.description {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0px;
+  letter-spacing: 0.2px;
+}
